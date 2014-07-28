@@ -103,6 +103,8 @@ public class MainDocumentPartMceIgnorableHelper {
 			}
 			
 			// For W15, collapse
+/*		
+ * Bob Fleischman - commented this out to generat docs without the namespace issue	
 			PPr ppr = p.getPPr();
 			if (ppr==null) {
 				ppr = Context.getWmlObjectFactory().createPPr();
@@ -113,7 +115,8 @@ public class MainDocumentPartMceIgnorableHelper {
 				notCollapsed.setVal(Boolean.FALSE);
 				ppr.setCollapsed(notCollapsed);
 			}
-		}
+
+*/		}
 		
 		return "w14 w15";
     	

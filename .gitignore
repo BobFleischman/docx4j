@@ -1,3 +1,7 @@
 /target/
 /bin/
 /dist/
+/bin-testOutput
+.settings
+.classpath
+.project
